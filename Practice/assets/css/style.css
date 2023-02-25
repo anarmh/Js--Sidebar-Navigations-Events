@@ -1,0 +1,32 @@
+/* body{
+    background-color: gray;
+} */
+.sidebar{
+    width: 100vw;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    transition: all 1s;
+}
+.hide{
+    transform: translate(0,-250px);
+}
+
+
+.close,.open{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+}
